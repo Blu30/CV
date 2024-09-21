@@ -1,0 +1,243 @@
+body{  
+    background-color: #F5F7FA; 
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    flex-direction: row;
+    width: 1200px;
+}
+
+p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #595959;
+}
+
+h4{ 
+    color: #000;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px;    
+}
+
+li{
+    color: #595959;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+.subtitle{
+    color: #FB6D3A;
+}
+
+.side-bar{
+    width: 370px;
+    background: #1E2939;
+    padding-top: 40px;
+    color: #ffff;
+}
+.side-bar > .content{
+    margin-top: 50px;
+    margin-left: 40px;
+}
+
+.contacts p{
+    color: rgba(255, 255, 255, 1);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 8px 0px 0px 0px;
+}
+
+.contacts a{
+    color: rgba(255, 255, 255, .5);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.contacts h3{
+    margin-top: 0px 0px 8px 0px;
+}
+
+.contacts .number{
+    text-decoration: none;
+}
+
+.contacts p:last-child{
+    margin-top: 0px;
+}
+
+.side-bar> .skills h3{
+    margin: 47px 0px 0px 0px;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px
+}
+.skills h3 {
+    margin-top: 45px;
+    margin-bottom:8px;
+}
+.skills ul{
+    list-style: none;
+    padding-left: 0px;
+}
+
+.skills ul li::before{
+    content: "\2022";
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FB6D3A;
+    display: inline-block;
+    width: 10px;
+}
+
+.skills li{
+    color: rgba(255, 255, 255, 1);
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; 
+}
+
+/*Main Section*/
+.main-section{
+    width: calc(100% - 370px);
+    background: #FFF;
+    box-shadow: 6px 6px 20px 0px rgba(0, 0, 0, 0.10);
+    padding: 102px 217px 107px 88px;
+}
+
+.summary{
+    margin-bottom: 40px;
+}
+
+.summary> h4{
+    color: #000;
+    margin: 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 17px;
+}
+
+.summary> h2{
+    color: #000;
+    margin-top: 19px 0px 24px 0px;
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 55px;
+}
+
+.summary> p{
+    color: #595959;
+    margin: 0px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+ .projects {
+    margin-top: 40px;
+    margin-bottom: 8px;
+}
+
+.projects> h3{
+    margin: 0;
+}
+
+.projects> ol{
+    margin: 8 0 1.5em 0;
+    padding: 0;
+    counter-reset: item;
+}
+
+ol> li{
+    margin:0;
+    padding: 0 0 0 2em;
+    text-indent: -2em;
+    list-style-type: none;
+    counter-increment: item;
+}
+
+ ol> li::before{
+    color: #000000;
+    display: inline-block;
+    width: 1em;
+    padding-right: 13px;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    text-align: right;
+    content: counter(item) ".";
+ }
+
+.projects > ol span{
+    color: #000;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 24px;
+ }
+ .projects a{
+    color: #595959;
+    margin: 8 px;
+    padding: 0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    counter-reset: item;
+    text-decoration-line: underline;
+}
+
+.work-experience{
+    margin: 51px 0px 0px 0px;
+}
+
+.work-experience> h3{
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 27px;
+    color: #000;
+    margin: 0 0 12px 0;
+}
+
+.work-experience > .first{
+    margin: 0px;
+}
+
+.work-experience > .first > h4{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    margin: 12px 0;
+}
+
+.work-experience > .first > p{
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: #A8A8A8;
+    margin: 0;
+}
+
+.educ{
+    color: #FB6D3A;
+    margin-bottom: 12px;
+    margin-top: 12px;
+}
+
+
+
+
